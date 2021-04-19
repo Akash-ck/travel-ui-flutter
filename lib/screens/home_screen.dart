@@ -103,10 +103,10 @@ class _HomeScreenState extends State<HomeScreen> {
             title: SizedBox.shrink(),
           ),
           BottomNavigationBarItem(
-            icon: CircleAvatar(
-              radius: 15.0,
-              backgroundImage: NetworkImage('http://i.imgur.com/zL4Krbz.jpg'),
-            ),
+            icon: Icon(
+    Icons.account_circle_sharp,
+    size: 30.0,
+    ),
             title: SizedBox.shrink(),
           )
         ],
